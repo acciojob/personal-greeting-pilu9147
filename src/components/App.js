@@ -10,8 +10,8 @@ const App =   ()=>{
   return (
     <div>
         Enter your name: <br/>
-        <input type="text" onChange={dis} value={text}/> <br/>
-        Hello { text}!
+        <input type="text" onChange={dis} value={text}/>
+        <p>Hello { text}!</p>
     </div>
   )
 }
