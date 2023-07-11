@@ -9,9 +9,9 @@ const App =   ()=>{
   }
   return (
     <div>
-        <p>Enter your name:</p>
-        <input type="text" onChange={dis} value={text}/>
-        <p>Hello { text}!</p>
+        Enter your name: <br/>
+        <input type="text" onChange={dis} value={text}/> <br/>
+        Hello { text}!
     </div>
   )
 }
